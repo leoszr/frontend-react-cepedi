@@ -68,6 +68,59 @@ switch (s) {
 		console.log("domingo")
 		break;
 }
+//2.2
+let fruta = prompt("Digite o nome da fruta:").toLowerCase()
+
+switch (fruta) {
+	case "banana":
+		console.log("Banana custa R$ 3,00 o quilo")
+		break
+	case "maca":
+		console.log("Maçã custa R$ 4,50 o quilo")
+		break
+	case "laranja":
+		console.log("Laranja custa R$ 2,50 o quilo")
+		break
+	case "uva":
+		console.log("Uva custa R$ 7,00 o quilo")
+		break
+}
+//2.3
+let num = Number(prompt("Digite um número de 1 a 12:"))
+
+switch (num) {
+	case 1: console.log("Janeiro"); break
+	case 2: console.log("Fevereiro"); break
+	case 3: console.log("Março"); break
+	case 4: console.log("Abril"); break
+	case 5: console.log("Maio"); break
+	case 6: console.log("Junho"); break
+	case 7: console.log("Julho"); break
+	case 8: console.log("Agosto"); break
+	case 9: console.log("Setembro"); break
+	case 10: console.log("Outubro"); break
+	case 11: console.log("Novembro"); break
+	case 12: console.log("Dezembro"); break
+}
+//2.4
+let opcao = Number(prompt("Menu:\n1 - Hambúrguer\n2 - Pizza\n3 - Refrigerante\n4 - Sair\nEscolha uma opção:"))
+
+switch (opcao) {
+	case 1:
+		console.log("Você escolheu Hambúrguer")
+		break
+	case 2:
+		console.log("Você escolheu Pizza")
+		break
+	case 3:
+		console.log("Você escolheu Refrigerante")
+		break
+	case 4:
+		console.log("Saindo do menu...")
+		break
+	default:
+		console.log("Opção inválida")
+}
 
 
 
