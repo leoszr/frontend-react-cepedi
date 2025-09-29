@@ -31,7 +31,7 @@ console.log(arr2)
 
 function somar(...numeros) {
 	let soma = 0
-	for (num of numeros) soma += num;
+	for (let num of numeros) { soma += num }
 	return soma
 }
 console.log(somar(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
@@ -49,10 +49,14 @@ class Pessoa {
 	}
 }
 const person = new Pessoa(22, "Leonardo")
-console.log(person.apresentar())
+person.apresentar()
 
+//P7
+import helloWorld from "./p7.js"
 
-
+console.log(helloWorld())
+//export nomeado permite exportar várias funções, classes ou variáveis de um mesmo arquivo, e na importação exige o uso de {} com o nome exato.
+//Já o export default só pode existir uma vez por arquivo, não usa {} e pode ser renomeado na importação.
 
 
 
